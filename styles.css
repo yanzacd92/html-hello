@@ -1,0 +1,88 @@
+* {
+	min-height: 10px;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.description {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 600px;
+    height: auto;
+    background-color: white;
+}
+
+.fa-html5 {
+    margin-right: 10px;
+    font-size: 32px;
+}
+
+.fa-ellipsis-v {
+    margin-left: auto;
+    font-size: 35px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.title-description {
+    flex-direction: row;
+}
+
+.content {
+    flex-direction: column;
+    padding: 15px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon {
+    display: inline;
+    margin-left: 10px;
+}
+
+.bookmark {
+    margin-left: auto;
+}
+
+.likes {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 16px;
+}
+
+img {
+    width: 100%;
+	height: auto;
+}
+
+.fa-heart::before, .fa-comment::before, .fa-paper-plane::before {
+    margin-left: 5px;
+    font-size:32px !important;
+    font: var(--fa-font-regular);
+}
+
+.fa-bookmark::before {
+    margin-right: 20px;
+    font-size:32px !important;
+    font: var(--fa-font-regular);
+}
+}
